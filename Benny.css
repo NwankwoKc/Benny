@@ -1,0 +1,176 @@
+*{
+    color:rgb(0, 54, 157);
+    margin: 20%,20%;
+    padding: 0;
+}
+#benny_logo{
+    text-align:right;
+}
+
+body{
+    justify-content: center;
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 722px;
+}
+#first_table{
+    font-size: 60%;
+    font-weight: 1000;width: 100%;
+    margin: 0;
+    padding: 0;
+}
+main{
+    border: 1px solid rgb(0, 54, 157);
+    padding: none;
+}
+table,th,td{
+    border:1px solid rgb(0, 54, 157);
+    border-collapse: collapse;
+}
+.deg{
+    transform: rotate(-90.0deg);
+    /* padding: 2px; */
+    margin-left: 0%;
+    margin-right: 0%;
+    width: max-content;
+    padding: 0;
+}
+
+footer{
+    line-height: 30%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.degs{
+    padding-right: 2%;
+    padding-left: 0%;
+    font-size: 1.4em;
+    width: 450%;
+}
+#empty_tab{
+    padding: 2%;
+}
+#th{
+    height:15em;
+}
+.fadd{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+table{
+    width:200px;
+}
+div,h1{
+    font-size: small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#ftable{
+    width:40%;
+    
+}
+#cont{
+    text-align: center;
+}
+#first_table{
+    width:100%;
+    display:grid;
+    grid-template-columns: 70% 30%;
+    font-size: smaller;
+    grid-template-areas: "a","b";
+}
+#totalscore{
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+#pee{
+    border:1px solid rgb(0, 54, 157);
+    margin:0;
+    margin-right: 3%;
+    border-top:0;
+    border-bottom: none;
+    border-right: none;
+}
+
+#tab2{
+    grid-area:"a";
+    width: 100%;
+    height: 100%;
+}
+#tab1{
+    grid-area: "b";
+    border-right: none;
+    font-size: 70%;
+    font-weight: 1000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#psychomotors{
+    width: 100%;
+    height: 100%;
+}
+#sub{
+    padding-left: 6px
+}
+#lastpa{
+    border: hidden 0px white;
+    padding-left: 6px
+}
+#subject_performer{
+    border-bottom: hidden;
+    padding-left: 6px;
+}
+#subperforms{
+    justify-self: end;
+    margin-right: 4%;
+    margin-left: 5%;
+}
+#subperform{
+    height: 100%;width:100%;
+}
+#logo{
+    width: 100px
+}
+#psychomotor{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+}
+#h_one{
+    margin-left:20%;
+    margin-right:20%;
+    font-weight: bolder;
+    justify-content:center;
+    text-align: center
+}
+#partc{
+    border:none;
+    border-top: hidden 0px white;
+    border-left: hidden 0px white;
+}
+#akenpai{
+    margin-left: 5%;
+    text-align: center
+}
+
+#h{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+#key_rating th td{
+    border: 1px solid blue;
+    margin:0;
+}
+#key_rating {
+    width: 100%;
+}
+
+.lapsta {
+    border: hidden 0px white;
+    padding-left: 6px;
+}
+#lastdiv{
+    border: 1px solid rgb(0, 54, 157);
+}
+#lastth{
+    border: hidden 0px white;
+}
